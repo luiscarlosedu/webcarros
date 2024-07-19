@@ -1,0 +1,10 @@
+.register-to-login {
+    text-align: center;
+    font: medium;
+    text-decoration: none;
+    color: black;
+}
+
+.register-to-login span {
+    text-decoration: underline;
+}

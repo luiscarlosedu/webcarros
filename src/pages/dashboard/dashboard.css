@@ -1,0 +1,97 @@
+.dashboard-main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+}
+
+.dashboard-h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+
+.dashboard-car {
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+.dashboard-car-trash-icon {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    background: #FFF;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+    cursor: pointer;
+}
+
+.dashboard-car-image {
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+    margin-bottom: 4px;
+    max-height: 280px;
+    object-fit: cover;
+}
+
+.dashboard-car p {
+    font-weight: bold;
+    margin: 4px 0px 8px 0px;
+    padding: 0px 8px;
+}
+
+.dashboard-car-span {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 8px;
+}
+
+.dashboard-car-span span {
+    color: #3f3f46;
+}
+
+.dashboard-car-span strong {
+    color: black;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.dashboard-car-bar {
+    width: 100%;
+    height: 1px;
+    margin: 8px 0px;
+    background-color: #e2e8f0;
+}
+
+.dashboard-car-city {
+    padding: 0px 8px 8px 8px;
+}
+
+.dashboard-car-city span {
+    color: black;
+}
+
+#dashboard-car-img-load {
+    height: 284px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .dashboard-main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .dashboard-main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

@@ -1,0 +1,13 @@
+.input-component {
+    width: 100%;
+    border: 1px solid rgb(116, 116, 116);
+    border-radius: 6px;
+    height: 44px;
+    padding: 0px 8px;
+    outline: none;
+}
+
+.input-component-p {
+    color: red;
+    margin: 4px 0px;
+}

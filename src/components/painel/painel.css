@@ -1,0 +1,27 @@
+.painel-dashboard {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: #FF3131;
+    border-radius: 8px;
+    font: medium;
+    color: white;
+    gap: 16px;
+    padding: 0px 16px;
+    margin-bottom: 16px;
+}
+
+.painel-dashboard a {
+    color: white;
+    text-decoration: none;
+}
+
+.painel-dashboard button {
+    background: none;
+    border: none;
+    color: white;
+    margin-left: auto;
+    font-weight: 600;
+    cursor: pointer;
+}

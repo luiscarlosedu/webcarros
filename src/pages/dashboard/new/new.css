@@ -1,0 +1,156 @@
+.new-file-field {
+    width: 100%;
+    background-color: white;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.new-file-button {
+    border: 2px solid gray;
+    width: 192px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 128px;
+}
+
+.new-file-button-icon {
+    position: absolute;
+    cursor: pointer;
+}
+
+.new-file-button-input {
+    cursor: pointer;
+}
+
+.new-file-button-input input {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.new-form-container {
+    width: 100%;
+    background-color: white;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.new-form {
+    width: 100%;
+}
+
+.new-form-label-input-container {
+    margin-bottom: 12px;
+}
+
+.new-form-label {
+    font-weight: 600;
+}
+
+.new-form-label p {
+    margin-bottom: 8px;
+}
+
+.new-form-label-input-container-field {
+    display: flex;
+    width: 100%;
+    margin-bottom: 12px;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.new-form-label-input-container.double {
+    width: 100%;
+}
+
+.new-form-text-area {
+    border: 1px solid gray;
+    width: 100%;
+    border-radius: 6px;
+    height: 96px;
+    padding: 8px 8px;
+    resize: none
+}
+
+.new-form-text-area-error {
+    margin-bottom: 4px;
+    color: #FF3131;
+}
+
+.new-form-btn {
+    border-radius: 6px;
+    background-color: rgb(24 24 27);
+    color: white;
+    font: medium;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.new-file-car-image-container {
+    width: 100%;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.new-file-car-image-icon {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    padding: 6px;
+    background-color: rgba(0, 0, 0, 0.784);
+    border-radius: 0px 8px 0px 0px;
+    border: none;
+    outline: none;
+    transition: .3s;
+}
+
+.new-file-car-image-icon:hover {
+    background-color: #FF3131;
+}
+
+.new-file-car-image {
+    border-radius: 8px;
+    width: 100%;
+    height: 128px;
+    object-fit: cover;
+}
+
+
+
+
+@media screen and (min-width: 640px) {
+    .new-file-field {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 768px) { 
+    .new-file-button {
+      width: 192px;
+    }
+}
+
+@media (min-width: 640px) { 
+    .new-form-container {
+      flex-direction: row; 
+    }
+}
